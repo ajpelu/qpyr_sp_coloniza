@@ -189,7 +189,7 @@ This repo contains a visualization of the spatial distribution of the vegetation
 
 This repository is licensed as Creative Commons Attribution 4.0 ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)). You can find more info [here](/LICENSE). Anyone can use the content of the repository citing as following:
 
-* Pérez-Luque AJ (2020). Spatial visualization of vegetation transects for analyze the colonization pattern of abandonment croplands within Quercus pyrenaica woodlands of Sierra Nevada. ![](https://img.shields.io/badge/version-1.0.0-green.svg).  [![DOI](https://zenodo.org/badge/117563374.svg)](https://zenodo.org/badge/latestdoi/117563374) 
+* Pérez-Luque AJ (2020). Spatial visualization of vegetation transects for analyze the colonization pattern of abandonment croplands within Quercus pyrenaica woodlands of Sierra Nevada. ![](https://img.shields.io/badge/version-1.0.0-green.svg).  [![DOI](https://zenodo.org/badge/371296612.svg)](https://zenodo.org/badge/latestdoi/371296612)
 
 
 
