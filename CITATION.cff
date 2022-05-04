@@ -1,0 +1,35 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Spatial visualization of vegetation transects to
+  analyze the colonization pattern of abandonment
+  croplands within Quercus pyrenaica woodlands of
+  Sierra Nevada
+message: Please cite this software using these metadata.
+type: software
+authors:
+  - given-names: Antonio Jesús
+    family-names: Pérez-Luque
+    email: ajpelu@gmail.com
+    orcid: 'https://orcid.org/0000-0002-1747-0469'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.4817484
+url: 'https://ajpelu.github.io/qpyr_sp_coloniza/'
+repository: 'https://github.com/ajpelu/qpyr_sp_coloniza/'
+abstract: >
+  Visualization of the spatial distribution of the
+  vegetation transects carried out within MIGRAME
+  project (Global Change, Altitudinal Range Shift and
+  Colonization of Degraded Habitats in Mediterranean
+  Mountains). All vegetation data and more info could
+  be accessed in Pérez-Luque et al. 2015
+  (https://phytokeys.pensoft.net/article/5482/). 
+keywords:
+  - Quercus pyrenaica
+  - global change
+  - forest inventories
+  - Sierra Nevada
+license: CC-BY-4.0
