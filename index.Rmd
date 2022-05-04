@@ -25,8 +25,9 @@ library("maptools")
 
 ```{r readData}
 # Read spatial data 
-qp <- rgdal::readOGR(dsn='/Users/ajpelu/Google Drive/_phd/_geoinfo/dist_SN/',
+qp <- rgdal::readOGR(dsn='/Volumes/GoogleDrive/My Drive/_phd/_geoinfo/dist_SN/',
                      layer = 'q_pyr_sn_4326', verbose = FALSE, encoding = "UTF-8")
+
 
 crops <- rgdal::readOGR(dsn=here::here("data/dist_cultivos/"),
                      layer = 'aux_ajpelu_cultivos_56', verbose = FALSE, encoding = "UTF-8")
@@ -41,7 +42,7 @@ crops@data <- crops@data %>% mutate(
          loc == "SANJUAN" & cultivo == "CULT_2" ~ "SJ2"))
 
 
-transectos_raw <- rgdal::readOGR(dsn='/Users/ajpelu/Google Drive/_phd/_geoinfo/migrame/',
+transectos_raw <- rgdal::readOGR(dsn='/Volumes/GoogleDrive/My Drive/_phd/_geoinfo/migrame/',
                      layer = 'mig_transectos', verbose = FALSE, encoding = "UTF-8")
 transectos_raw <- spTransform(transectos_raw, CRS("+init=epsg:4326")) 
 transectos <- subset(transectos_raw, tipo %in% c('CLARO', 'CLARO_BORDE','ROBLEDAL')) 
@@ -184,6 +185,9 @@ map_base %>%
 
 Info
 =============================================================================
+\
+\
+\
 
 This repo contains a visualization of the spatial distribution of the vegetation transects carried out within MIGRAME project (*Global Change, Altitudinal Range Shift and Colonization of Degraded Habitats in Mediterranean Mountains*). All vegetation data and more info could be accessed in [Pérez-Luque et al. 2015](https://phytokeys.pensoft.net/article/5482/). 
 
